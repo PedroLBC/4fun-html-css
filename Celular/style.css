@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(146, 146, 146);
+}
+#box {
+    width:250px;
+    height:500px;
+    background-color:rgb(26, 26, 26);
+    border-radius: 20px;
+    position: absolute;
+}
+#tela {
+    width: 235px;
+    height: 480.5px;
+    background-color: whitesmoke;
+    position: absolute;
+    border-radius: 13px;
+    top: 17px;
+    left: 15px;
+}
+#camerafundo {
+    position: absolute;
+    width: 130px;
+    height: 22.5px;
+    background-color: rgb(26, 26, 26);
+    border-radius: 10px;
+    top: 10px;
+    left: 65px;
+}
+#saidasom {
+    position: absolute;
+    border-radius: 15px;
+    width: 50px;
+    height: 3.5px;
+    background-color: rgb(150, 150, 150);
+    top: 20px;
+    left: 105px;
+}
+#camera {
+    position: absolute;
+    background-color: rgb(150, 150, 150);
+    border-radius: 10px;
+    width: 6px;
+    height: 6px;
+    top: 19px;
+    left: 160px;  
+}

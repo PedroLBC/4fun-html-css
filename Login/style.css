@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    border-radius: 3px;
+}
+body {
+    background-image: linear-gradient(to right, blueviolet, rgb(0, 132, 255));
+}
+h1 {
+    position: relative;
+    left: 40%;
+    top: 3em;
+}
+h1::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 36px;
+    bottom: 3px;
+    left: 0;
+    border-radius: 5px;
+    background: linear-gradient(to left, rgb(149, 36, 255), rgb(0, 132, 255));
+}
+input {
+    color: white;
+    position: relative;
+    left: 38.7em;
+    top: 10em;
+    height: 30px;
+    width: 20em;
+    background: rgb(58, 58, 58);
+    border-block-end: 2px solid rgb(94, 94, 94);
+}
+input::placeholder {
+    font-size: 1.3em;
+    color: white;
+    opacity: 90%;
+}
+input:focus {
+    outline: none;
+}
+#senha {
+    position: relative;
+    top: 11.5em;
+}
+button {
+    position: relative;
+    top: 20em;
+    left: 38.7em;
+    width: 20em;
+    height: 30px;
+    
+}
+button:hover {
+    cursor: pointer;
+}
+#box {
+    position: absolute;
+    width: 400px;
+    height: 540px;
+    background-color: rgb(58, 58, 58);
+    top: 3.8em;
+    left: 28em;
+    border-radius: 15px;
+}
+h2 {
+    position: relative;
+    text-align: center;
+    top: 12em;
+    left: 0.4em;
+}
+#facebook {
+    position: relative;
+    top: 22em;
+    background-color: rgb(0, 81, 255);
+}
+#twitter {
+    position: relative;
+    top: 23.5em;
+    background-color: rgb(0, 153, 255);
+}
+#entrar {
+    position: relative;
+    top: 16em;
+    background-image: linear-gradient(to right, blueviolet, rgb(0, 132, 255));
+}
+#esqueceu {
+    position: relative;
+    top: 18.5em;
+    left: 25.5em;
+    font-size: 60%;
+}

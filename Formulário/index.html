@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+    <h1>Welcome to My Space</h1>
+    <h2>Por favor preencha todos os campos, se possivel</h2><br><br>
+    <form id="all">
+        <div id="principais">
+            <div id="nomeall">
+                <label for="nome" id="nometext">Nome</label>
+                <input type="text" id="nome" required>
+            </div>
+            <div id="senhaall">
+                <label for="senha" id="senhatext">Senha</label>
+                <input type="password" id="senha" required>
+            </div>
+            <div id="emailall">
+                <label for="email" id="emailtext">Email</label>
+                <input type="email" id="email" required>
+            </div><br><br>
+        </div>
+        <div id="box"></div>
+        <div id="check">
+            <label id="checktext">Seus conhecimentos</label><br>
+            <input type="checkbox" id="HTML" class="checking">
+            <label for="HTML">HTML</label>
+            <input type="checkbox" id="CSS" class="checking">
+            <label for="CSS">CSS</label>
+            <input type="checkbox" id="Javascript" class="checking">
+            <label for="Javascript">Javascript</label>
+            <input type="checkbox" id="Python" class="checking">
+            <label for="Python">Python</label>
+            <input type="checkbox" id="C++" class="checking">
+            <label for="C++">C++</label>
+            <input type="checkbox" id="PHP" class="checking">
+            <label for="PHP">PHP</label>
+        </div><br><br>
+        <div>
+            <label id="text">Conte mais sobre você (Opcional)</label><br>
+            <textarea name="areatext" id="areatext" style="width: 26em" rows="6"></textarea>
+        </div>
+        <button type="submit">Confirmar</button>
+    </form>
+</body>
+</html>
